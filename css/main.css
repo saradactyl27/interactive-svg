@@ -1,3 +1,8 @@
+#bear {
+  width: 15em;
+  height: 15em;
+}
+
 #left-ear {
   transform-origin: center center;
   transition: all .5s linear;
@@ -27,7 +32,7 @@
 @keyframes eye-shift {
 
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   50% {
