@@ -1,0 +1,40 @@
+#left-ear {
+  transform-origin: center center;
+  transition: all .5s linear;
+}
+
+#right-ear {
+  transform-origin: center center;
+  transition: all .5s linear;
+}
+
+#bear:hover #left-ear {
+  transform: translate(0, -20px);
+}
+
+#bear:hover #right-ear {
+  transform: translate(0, -20px);
+}
+
+#left-eye {
+  animation: eye-shift 3s linear infinite;
+}
+
+#right-eye {
+  animation: eye-shift 3s linear infinite;
+}
+
+@keyframes eye-shift {
+
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(-20px);
+  }
+}
